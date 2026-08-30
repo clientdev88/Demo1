@@ -1,0 +1,13 @@
+# This is a comment. Lines starting with # are ignored.
+
+# 1. Global owner: Everyone who makes changes to any file requires review from this user
+* @clientdev88
+
+# 2. Specific directory: All files inside the /docs/ folder belong to the docs team
+/docs/ @octo-org/documentation-team
+
+# 3. Specific file extension: All JavaScript files are owned by a specific developer
+*.js @js-maintainer
+
+# 4. Specific critical file: Only senior devs can change workflows or security setups
+.github/workflows/ @senior-dev-username
